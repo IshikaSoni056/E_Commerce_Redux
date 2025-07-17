@@ -1,51 +1,76 @@
-# Install following packages
+# React Redux Shopping Cart
 
-0. Create project with vite
-   // optional if not installed type it otherwise skip
-   npm create vite@latest
+A fully functional shopping cart application built using **React** and **Redux Toolkit**. This project demonstrates how to manage global state for cart operations in an e-commerce-like user interface, with clean routing and modular component structure.
 
-   npm create vite@latest YOUR_FOLDER_NAME -- --template  
-   cd YOUR_FOLDER_NAME
+---
 
-   npm install
-   npm run dev
+## Features
 
-   Website Link => https://vite.dev/guide/
+- Product listing page  
+- Add to cart / remove from cart functionality  
+- View cart page with quantity and subtotal calculations  
+- Increment and decrement item quantity  
+- Navigation between pages using React Router  
+- Global state management with Redux Toolkit  
+- Simple and clean UI styled with basic CSS
 
-1. Redux toolkit
-   npm install @reduxjs/toolkit
-   npm install react-redux
-   Website Link => https://redux-toolkit.js.org/introduction/getting-started
+---
 
-2. Icons
-   npm install react-icons --save
-   Website Link => https://react-icons.github.io/react-icons/
+## Installations
 
-3. Slider
-   npm install react-slick --save
-   npm install slick-carousel --save
+To set up the project, the following dependencies are required:
 
-   // Also add this in slider import file to make custome slider or change
-   import "slick-carousel/slick/slick.css";
-   import "slick-carousel/slick/slick-theme.css";
-   Website Link => https://react-slick.neostack.com/docs/get-started
+```bash
+npm install react react-dom
+npm install react-router-dom
+npm install @reduxjs/toolkit react-redux
+```
+## What the Dependencies Do
 
-4. Stripe for payments
-   npm i react-stripe-checkout
-   Website Link => https://www.npmjs.com/package/react-stripe-checkout
+- **react**, **react-dom** – For building and rendering the user interface.
+- **react-router-dom** – For routing between pages/components (e.g., Home, Cart).
+- **@reduxjs/toolkit**, **react-redux** – For global state management using Redux.
 
-5. Router
-   npm i react-router-dom
-   Website Link => https://reactrouter.com/
+---
 
-If any error is encountered please check package version and try again
-"@reduxjs/toolkit": "^2.4.0",
-"react": "^18.3.1",
-"react-dom": "^18.3.1",
-"react-icons": "^5.3.0",
-"react-redux": "^9.1.2",
-"react-router-dom": "^7.0.1",
-"react-slick": "^0.30.2",
-"react-stripe-checkout": "^2.6.3",
-"sass": "^1.81.0",
-"slick-carousel": "^1.8.1"
+## Redux Flow
+
+### `cartSlice.js`
+
+- Uses `createSlice()` from Redux Toolkit to define the `cart` slice.
+
+#### Defines Actions:
+
+- `addToCart`
+- `removeFromCart`
+- `incrementQuantity`
+- `decrementQuantity`
+
+#### Responsibilities:
+
+- Manages the `cartItems` state.
+- Provides logic for:
+  - Adding/removing items.
+  - Updating item quantities.
+  - Calculating the cart subtotal and total quantity.
+
+---
+
+### `store.js`
+
+- Configures the Redux store with the `cartReducer` from the slice.
+- The store is provided to the entire app using the `<Provider>` component from `react-redux`.
+
+---
+
+## Usage in Components
+
+### Dispatching Actions
+
+Use `useDispatch()` from `react-redux` to trigger actions:
+
+```js
+dispatch(addToCart(product));
+dispatch(removeFromCart(productId));
+dispatch(incrementQuantity(productId));
+dispatch(decrementQuantity(productId));
