@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { flaseproduct, offerImgproduct } from "../../assets/data/data";
+import {  offerImgproduct } from "../../assets/data/data";
 import Slider from "react-slick";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { SampleNextArrows, SamplePrevArrows } from "./Hero";

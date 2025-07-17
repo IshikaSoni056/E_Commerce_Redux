@@ -1,6 +1,3 @@
-import Slider from "react-slick";
-import { SampleNextArrows, SamplePrevArrows } from "../hero/Hero";
-import { categories } from "../../assets/data/data";
 
 export const Category = () => {
   // const settings = {

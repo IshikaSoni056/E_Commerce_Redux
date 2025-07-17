@@ -1,4 +1,4 @@
-import { Category, Hero, Offer, Product, Support } from "../../utils/Route";
+import {  Offer, Product,  } from "../../utils/Route";
 
 export const Home = () => {
   return (

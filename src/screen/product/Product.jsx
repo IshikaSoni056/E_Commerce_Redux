@@ -1,7 +1,5 @@
 import { product } from "../../assets/data/data";
-import AppImg from "../../assets/images/app-store.svg";
-import playImg from "../../assets/images/play-store.svg";
-import Img from "../../assets/images/app2.webp";
+
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { FiMinus, FiPlus } from "react-icons/fi";
