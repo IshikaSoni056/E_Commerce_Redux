@@ -1,5 +1,5 @@
 # Video 
-[![Video Title]([https://img.youtube.com/vi/VIDEO_ID/0.jpg](https://drive.google.com/file/d/1b2zRbNuYncy8iwaQFw08jaiD0bzgA6RY/view?usp=drive_link))]([https://www.youtube.com/watch?v=VIDEO_ID](https://drive.google.com/file/d/1dleSkxRLhw7PcpgCzDo9Hew9hCQb394M/view?usp=drive_link))
+[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1dleSkxRLhw7PcpgCzDo9Hew9hCQb394M/view?usp=drive_link)
 # React Redux Shopping Cart
 
 A fully functional shopping cart application built using **React** and **Redux Toolkit**. This project demonstrates how to manage global state for cart operations in an e-commerce-like user interface, with clean routing and modular component structure.
