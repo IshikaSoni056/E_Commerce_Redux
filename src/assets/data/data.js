@@ -15,11 +15,11 @@ export const slide = [
 
 export const offerImgproduct = [
   {
-    cover: "../images/offer/falsh/banner-1.webp",
+    cover: "images/offer/falsh/banner-1.webp",
   },
-  { cover: "../images/offer/falsh/banner-2.webp" },
-  { cover: "../images/offer/falsh/banner-3.webp" },
-  { cover: "../images/offer/falsh/banner-2.webp" },
+  { cover: "images/offer/falsh/banner-2.webp" },
+  { cover: "images/offer/falsh/banner-3.webp" },
+  { cover: "images/offer/falsh/banner-2.webp" },
 ];
 export const flaseproduct = [
   {
@@ -116,7 +116,7 @@ export const product = [
     category: "Woman",
     colors: ["Black", "Blue", "Olive"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-1.webp",
+    cover: "images/product/p-1.webp",
     desc: "A stunning and elegant dress perfect for any occasion, made with high-quality fabric for women who love fashion.",
   },
   {
@@ -127,7 +127,7 @@ export const product = [
     category: "Man",
     colors: ["Gray", "Black", "Maroon"],
     size: ["S", "Xl", "2XL"],
-    cover: "../images/product/p-2.webp",
+    cover: "images/product/p-2.webp",
     desc: "This classic men's suit offers unparalleled style and comfort, designed for modern professionals.",
   },
   {
@@ -138,7 +138,7 @@ export const product = [
     category: "Watch",
     colors: ["Black", "White", "Gray"],
     size: ["M", "S", "Xl", "2XL"],
-    cover: "../images/product/p-3.webp",
+    cover: "images/product/p-3.webp",
     desc: "A luxurious timepiece with a sleek design, perfect for elevating your everyday look.",
   },
   {
@@ -149,7 +149,7 @@ export const product = [
     category: "Kids",
     colors: ["Blue", "White", "Gray"],
     size: ["S", "Xl", "2XL"],
-    cover: "../images/product/p-4.webp",
+    cover: "images/product/p-4.webp",
     desc: "Comfortable and playful sneakers for kids, designed to support their every adventure.",
   },
   {
@@ -160,7 +160,7 @@ export const product = [
     category: "Sports",
     colors: ["Black", "Olive", "Brown"],
     size: ["M", "S", "Xl", "2XL"],
-    cover: "../images/product/p-5.webp",
+    cover: "images/product/p-5.webp",
     desc: "Top-quality sports gear to help you perform your best, whether you're on the court or in the gym.",
   },
   {
@@ -171,7 +171,7 @@ export const product = [
     category: "Sunglass",
     colors: ["Black", "Gray", "Blue"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-6.webp",
+    cover: "images/product/p-6.webp",
     desc: "Stylish sunglasses that provide UV protection while enhancing your look.",
   },
   {
@@ -182,7 +182,7 @@ export const product = [
     category: "Bags",
     colors: ["Brown", "Black", "Olive"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-7.webp",
+    cover: "images/product/p-7.webp",
     desc: "A durable leather backpack with ample space, perfect for work, travel, or daily use.",
   },
   {
@@ -193,7 +193,7 @@ export const product = [
     category: "Sneakers",
     colors: ["White", "Blue", "Gray"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-8.webp",
+    cover: "images/product/p-8.webp",
     desc: "Comfortable and stylish sneakers that pair well with any casual outfit.",
   },
   {
@@ -204,7 +204,7 @@ export const product = [
     category: "Brands",
     colors: ["Maroon", "Black", "Brown"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-9.webp",
+    cover: "images/product/p-9.webp",
     desc: "Exclusive designer shoes by Shovia, offering unmatched elegance and comfort.",
   },
   {
@@ -215,7 +215,7 @@ export const product = [
     category: "Fusion",
     colors: ["Olive", "Black", "Gray"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-10.webp",
+    cover: "images/product/p-10.webp",
     desc: "A trendy jacket by Fusion, combining style and functionality for any season.",
   },
   {
@@ -226,7 +226,7 @@ export const product = [
     category: "Brands",
     colors: ["Black", "Brown", "Gray"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-11.webp",
+    cover: "images/product/p-11.webp",
     desc: "Elegant formal shoes by Hunter, designed for unmatched comfort and sophistication.",
   },
   {
@@ -237,7 +237,7 @@ export const product = [
     category: "Brands",
     colors: ["Blue", "Gray", "White"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-18.webp",
+    cover: "images/product/p-18.webp",
     desc: "High-performance sports shoes by Club Shoes, ideal for athletes.",
   },
   {
@@ -248,7 +248,7 @@ export const product = [
     category: "Brands",
     colors: ["Gray", "Black", "Maroon"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-13.webp",
+    cover: "images/product/p-13.webp",
     desc: "Stylish winter jacket by Hoppister, keeping you warm without compromising style.",
   },
   {
@@ -259,7 +259,7 @@ export const product = [
     category: "Brands",
     colors: ["Black", "Olive", "White"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-14.webp",
+    cover: "images/product/p-14.webp",
     desc: "Trendy sneakers by Blaze Fashion, combining versatility and comfort.",
   },
   {
@@ -270,7 +270,7 @@ export const product = [
     category: "Brands",
     colors: ["Maroon", "Black", "Blue"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-15.webp",
+    cover: "images/product/p-15.webp",
     desc: "A luxurious evening gown by Elegance, perfect for formal events.",
   },
   {
@@ -281,7 +281,7 @@ export const product = [
     category: "Brands",
     colors: ["Brown", "Black", "Gray"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-16.webp",
+    cover: "images/product/p-16.webp",
     desc: "Premium leather shoes by Fashadil, blending classic style with modern comfort.",
   },
   {
@@ -292,7 +292,7 @@ export const product = [
     category: "Woman",
     colors: ["White", "Blue", "Gray"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-17.webp",
+    cover: "images/product/p-17.webp",
     desc: "Comfortable and casual T-shirt, perfect for daily wear.",
   },
   {
@@ -303,7 +303,7 @@ export const product = [
     category: "Bags",
     colors: ["Black", "Brown", "Maroon"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-18.webp",
+    cover: "images/product/p-18.webp",
     desc: "Stylish and spacious handbag, ideal for work or casual outings.",
   },
   {
@@ -314,7 +314,7 @@ export const product = [
     category: "Sports",
     colors: ["Gray", "Black", "Olive"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-19.webp",
+    cover: "images/product/p-19.webp",
     desc: "High-quality winter gloves, providing warmth and comfort.",
   },
   {
@@ -325,7 +325,7 @@ export const product = [
     category: "Man",
     colors: ["Black", "Gray", "Brown"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-20.webp",
+    cover: "images/product/p-20.webp",
     desc: "A classic fedora hat, perfect for adding a touch of elegance to your look.",
   },
   {
@@ -336,7 +336,7 @@ export const product = [
     category: "Watch",
     colors: ["Black", "White", "Gray"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-21.webp",
+    cover: "images/product/p-21.webp",
     desc: "An exquisite bracelet to complement your luxury watch collection.",
   },
   {
@@ -347,7 +347,7 @@ export const product = [
     category: "Sports",
     colors: ["Blue", "Gray", "Black"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-22.webp",
+    cover: "images/product/p-22.webp",
     desc: "Comfortable sports cap, perfect for outdoor activities.",
   },
   {
@@ -358,7 +358,7 @@ export const product = [
     category: "Bags",
     colors: ["Black", "Gray", "Brown"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-23.webp",
+    cover: "images/product/p-23.webp",
     desc: "A sleek and professional laptop bag with ample compartments.",
   },
   {
@@ -369,7 +369,7 @@ export const product = [
     category: "Kids",
     colors: ["Black", "White", "Brown"],
     size: ["S", "M", "L", "Xl"],
-    cover: "../images/product/p-2.webp",
+    cover: "images/product/p-2.webp",
     desc: "Durable and comfortable school shoes for kids.",
   },
 ];

@@ -4,7 +4,7 @@ import { Home, Layout, ScrollToTop } from "./utils/Route";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/E_Commerce_Redux">
         <ScrollToTop />
         <Routes>
           <Route
