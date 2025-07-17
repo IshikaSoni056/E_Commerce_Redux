@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write  # Required for GitHub Pages deploy
+  contents: write # Required for GitHub Pages deploy
 
 jobs:
   build:
@@ -19,7 +19,28 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 22 # Changed to Node.js 22 to match your local environment
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm # Cache the npm cache directory
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Debug package.json and package-lock.json
+        run: |
+          echo "--- Contents of package.json in CI ---"
+          cat package.json
+          echo "--- Contents of package-lock.json in CI ---"
+          cat package-lock.json
+          echo "--- Checking lockfileVersion in CI ---"
+          grep "lockfileVersion" package-lock.json
+          echo "--- Checking picomatch in lockfile in CI ---"
+          grep "picomatch" package-lock.json || echo "picomatch not found in lockfile"
+          echo "--- Checking jquery in lockfile in CI ---"
+          grep "jquery" package-lock.json || echo "jquery not found in lockfile"
 
       - name: Install dependencies
         run: npm ci
@@ -32,3 +53,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
